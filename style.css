@@ -1,0 +1,9 @@
+*{
+ color:blue;
+}
+.ativo {
+	color:pink;
+}
+.inativo{
+	display:none;
+}
