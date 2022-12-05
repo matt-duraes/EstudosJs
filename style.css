@@ -1,9 +1,83 @@
 *{
- color:blue;
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Inter', sans-serif;
+
 }
-.ativo {
-	color:pink;
+.principal{
+	width: 100%;
+	height: 100vh;
+	background-color: red;
+	display: flex;
 }
-.inativo{
-	display:none;
+.menu{
+	background-color: blue;
+	width: 340px;
+}
+.conteudo{
+	width: 100%;
+}
+.bloco_prime{
+	background-color: #ff6f00;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.primepass{
+	background-color: aliceblue;
+	margin: 15px;
+	min-height: 336px;
+	border-radius: 5px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	max-width: 500px;
+}
+.primepass:first-child{
+	margin-right: 0px;
+}
+h1{
+	text-align: center;
+	padding-top: 15px;
+	line-height: 120%;
+    font-size:1.813rem;
+}
+.logo figure{
+	width: 200px;
+	height: 100px;
+}
+figure{
+    background-repeat: no-repeat;
+    background-size: 80% auto;
+    background-position: center center;
+    position: relative;
+}
+.subtitulo{
+	font-size: 1.438rem;
+    line-height: 120%;
+    font-weight:500;
+	padding-bottom: 15px;
+
+}
+.texto{
+	font-size:1rem;
+    line-height: 120%;
+    font-weight:400;
+	padding: 15px;
+}
+.botao_geral_cor{
+	height: 45px;
+	line-height: 45px;
+	border-radius: 5px;
+	font-size:1rem;;
+	padding: 0 20px;
+	background-color: #ff6f00;
+	color: white;
+	border: 1px solid white;
+	cursor: pointer;
+}
+.botao_geral_cor:hover{
+	background-color:#c75905;
 }
